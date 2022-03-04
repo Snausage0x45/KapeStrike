@@ -13,7 +13,12 @@ function Invoke-Kape {
     .SYNOPSIS
       Utilizes Falcon RTR to place KAPE and execute a triage collection. Handles single or multihost and online/offline. 
     .EXAMPLE
-     Invoke-Kape -Hosts Host1,Host2,Host3 -ClientID CLIENTID -ClientSecret CLIENTSECRET
+     for single hosts:
+     Invoke-Kape -Hosts Host1 -ClientID CLIENTID -ClientSecret CLIENTSECRET
+     
+     or for mutliple hosts with Optional -Outpath:
+     Invoke-Kape -Hosts Host1,Host2,Host3 -ClientID CLIENTID -ClientSecret CLIENTSECRET  -OutPath C:\Users\Person\Desktop\Kape_Host_Status.csv
+     
 #>
     #It wasn't writing confirm to console correctly so had to a little string stuff
     function Write-HashTable {

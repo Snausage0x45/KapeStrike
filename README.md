@@ -1,6 +1,6 @@
 # KapeStrike
 
-KapeStrike is a collection of powershell scripts designed to streamline collecting Kape triage packages via Crowdstrike's RTR function and can handle single or multiple hosts as well as queue collections for offline hosts by utilizing the amazing module PsFalcon in addition too parsing the data with multiple tools, massive shout out to Erik Zimmerman, including supertimeline creation with plaso 
+KapeStrike is a collection of powershell scripts designed to streamline the collection of Kape triage packages via Crowdstrike's RTR function and can handle single or multiple hosts as well as queue collections for offline hosts by utilizing the amazing module PsFalcon in addition too parsing the data with multiple tools, massive shout out to Erik Zimmerman, including supertimeline creation with plaso 
 
 Consists of 3 scripts:
 

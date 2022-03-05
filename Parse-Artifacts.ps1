@@ -23,7 +23,7 @@ function Parse-Artifacts {
 #>
     
     #Tools Drive, Set this to your Drive letter and path - do NOT include the trailing '\' eg C:\tools
-    $toolsDrivePath = "F:\tools"
+    $toolsDrivePath = "XXXX_REPALCE_ME_XXXX"
 
     $evtxeCmd = $toolsDrivePath + '\EvtxExplorer\EvtxECmd.exe'
     $chainSaw = $toolsDrivePath + "\chainsaw\chainsaw.exe"
